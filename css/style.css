@@ -61,7 +61,7 @@ a:focus, a:hover {
 	outline: none
 }
 .banner {
-    background: url(../images/bg1.jpg) no-repeat;
+    background: url(../images/bg3.jpg) no-repeat;
     width: 100%;
     display: block;
     height: 730px;
@@ -74,16 +74,17 @@ a:focus, a:hover {
     margin: 0 0 1em;
 }
 .banner-info1 p {
-    background: rgba(54, 25, 25, .5); 
+    /*background: rgba(54, 25, 25, .5);*/
+    background: rgba(10, 10, 10, .6); 
     padding: 5px;
     text-align: center;
-    color:#C5C4C4;
+    color:#ffffff;
     line-height: 1.8em;
     margin: 0;
 }
-.banner-info1 h1{
-  background: rgba(54, 25, 25, .5);
-}
+/*.banner-info1 h1{
+  background: rgba(10, 10, 10, .6);
+}*/
 .banner-info {
     width: 70%;
     margin: 15em auto 0;
@@ -1851,10 +1852,10 @@ h3.title {
     font-size: 1.2em;
     line-height: 1.3em;
 }
-.banner-info1 p {
+/*.banner-info1 p {
     line-height: 1.6em;
     font-size: 13px;
-}
+}*/
 .banner-info {
     margin: 3em auto 0;
 }
